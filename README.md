@@ -1,50 +1,35 @@
-# Welcome to your Expo app 👋
+<h3 align="center">A React Native Real Estate App</h3>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📋 <a name="table">Table of Contents</a>
 
-## Get started
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
 
-1. Install dependencies
+## <a name="introduction">🤖 Introduction</a>
 
-   ```bash
-   npm install
-   ```
+A modern, feature-rich mobile application for real estate listings, built using React Native. This application enables users to browse, search, and view property details, making the property discovery process seamless and engaging.
 
-2. Start the app
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-   ```bash
-    npx expo start
-   ```
+- Expo
+- React Native
+- TypeScript
+- Nativewind
+- Appwrite
+- Tailwind CSS
 
-In the output, you'll find options to open the app in a
+## <a name="features">🔋 Features</a>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+👉 **Authentication with Google**: Secure and seamless user sign-ins using Google’s authentication service.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+👉 **Home Page**: Displays the latest and recommended properties with powerful search and filter functionality.
 
-## Get a fresh project
+👉 **Explore Page**: Allows users to browse all types of properties with a clean and intuitive interface.
 
-When you're ready, run:
+👉 **Property Details Page**: Provides comprehensive information about individual properties, including images and key details.
 
-```bash
-npm run reset-project
-```
+👉 **Profile Page**: Customizable user settings and profile management
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+👉 **Centralized Data Fetching**: Custom-built solution inspired by TanStack’s useQuery for efficient API calls.
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
