@@ -1,4 +1,4 @@
-import { View, Text, SafeAreaView, FlatList, ActivityIndicator, Image, TouchableOpacity } from 'react-native'
+import { View, Text, SafeAreaView, FlatList, ActivityIndicator, Image, TouchableOpacity, Button } from 'react-native'
 import React, { useEffect } from 'react'
 import NoResults from '@/components/NoResults'
 import Filters from '@/components/Filters'
@@ -9,6 +9,7 @@ import { useAppwrite } from '@/lib/useAppwrite'
 import icons from '@/constants/icons'
 import { getLatestProperties, getProperties } from '@/lib/appwrite'
 import { Card, FeaturedCard } from '@/components/Cards'
+import seed from '@/lib/seed'
 
 const Home = () => {
 const { user } = useGlobalContext();
@@ -45,6 +46,7 @@ useEffect(() => {
 const handleCardPress = (id: string) => router.push(`/properties/${id}`);
 return (
   <SafeAreaView className="h-full bg-white">
+    <Button title='Seed' onPress={seed} />
   <FlatList
     data={properties}
     numColumns={2}
