@@ -33,6 +33,7 @@ const facilities = [
   "Pet-friendly",
 ];
 
+// TODO: Implement getRandomSubset function
 function getRandomSubset<T>(
   array: T[],
   minItems: number,
