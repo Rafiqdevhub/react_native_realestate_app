@@ -10,7 +10,7 @@ import {
 import React from "react";
 import images from "@/constants/images";
 import icons from "@/constants/icons";
-import { Redirect } from "expo-router";
+import { Redirect } from "expo-router"; 
 import { useGlobalContext } from "@/lib/gloabal-provider";
 import { login } from "@/lib/appwrite";
 
